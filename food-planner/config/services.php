@@ -36,3 +36,11 @@ return [
     ],
 
 ];
+
+class FoodDatabaseService {
+    public function search(?string $query, ?string $category) {
+        return FoodItem::when($query, fn($q) => $q->where('name','like',"%$query%")->orWhere('name_bn','like',"%$query%"))
+            ->when($category, fn($q) => $q->where('category',$category))
+            ->get();
+    }
+}
