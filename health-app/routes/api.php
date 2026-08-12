@@ -6,6 +6,7 @@ use App\Http\Controllers\FoodController;
 use App\Http\Controllers\MealPlanController;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use App\Http\Controllers\BudgetMealController;
 
 Route::post('/login', function (Illuminate\Http\Request $request) {
     $request->validate([
@@ -33,3 +34,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::apiResource('foods', FoodController::class);
+Route::post('/budget-meal/recommend', [BudgetMealController::class, 'recommend']);
