@@ -227,6 +227,7 @@
     <a href="{{ url('/dashboard/meal-planner') }}" class="{{ request()->is('dashboard/meal-planner') ? 'active' : '' }}">Meal planner</a>
     <a href="{{ url('/dashboard/budget-meal') }}" class="{{ request()->is('dashboard/budget-meal') ? 'active' : '' }}">Budget meal</a>
     <a href="{{ url('/dashboard/weekly-grocery') }}" class="{{ request()->is('dashboard/weekly-grocery') ? 'active' : '' }}">Weekly grocery</a>
+    <a href="{{ url('/dashboard/food-logger') }}" class="{{ request()->is('dashboard/food-logger') ? 'active' : '' }}">Food logger</a>
   </nav>
   <div class="user-pill">
     <span class="avatar">Z</span>

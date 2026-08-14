@@ -32,5 +32,11 @@
     <p>Give it a weekly budget, get a full 7-day plan — three meals a day, with variety.</p>
   </a>
 
+  <a href="{{ url('/dashboard/food-logger') }}" class="card">
+    <div class="num">05</div>
+    <h3>AI Food Logger</h3>
+    <p>Type what you ate in plain language — it matches foods automatically and logs it.</p>
+</a>
+
 </div>
 @endsection
