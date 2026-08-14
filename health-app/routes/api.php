@@ -7,6 +7,7 @@ use App\Http\Controllers\MealPlanController;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Controllers\BudgetMealController;
+use App\Http\Controllers\WeeklyGroceryController;
 
 Route::post('/login', function (Illuminate\Http\Request $request) {
     $request->validate([
@@ -35,3 +36,4 @@ Route::get('/user', function (Request $request) {
 
 Route::apiResource('foods', FoodController::class);
 Route::post('/budget-meal/recommend', [BudgetMealController::class, 'recommend']);
+Route::post('/weekly-grocery/recommend', [WeeklyGroceryController::class, 'recommend']);

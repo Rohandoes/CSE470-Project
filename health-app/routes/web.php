@@ -29,5 +29,11 @@ Route::get('/dashboard/meal-planner', function () {
 Route::get('/dashboard/budget-meal', function () {
     return view('dashboard.budget-meal');
 });
+Route::get('/dashboard/weekly-grocery', function () {
+    return view('dashboard.weekly-grocery');
+});
+Route::get('/dashboard/login', function () {
+    return view('dashboard.login');
+});
 
 require __DIR__.'/auth.php';

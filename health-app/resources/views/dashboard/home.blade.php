@@ -3,7 +3,7 @@
 @section('title', 'Rashoighor Ledger — Home')
 @section('eyebrow', 'Zobairul · Health App')
 @section('heading', 'Pick a stall')
-@section('sub', 'Three features, three pages. Log in up top first — the token carries over to whichever page you open next.')
+@section('sub', 'Four features, four pages. Log in up top first — the token carries over to whichever page you open next.')
 
 @section('content')
 <div class="grid">
@@ -24,6 +24,12 @@
     <div class="num">03</div>
     <h3>Budget Meal Recommendation</h3>
     <p>Hand it a budget in taka, get back the best protein-per-taka combo that fits under it.</p>
+  </a>
+
+  <a href="{{ url('/dashboard/weekly-grocery') }}" class="card">
+    <div class="num">04</div>
+    <h3>Weekly Grocery Budget</h3>
+    <p>Give it a weekly budget, get a full 7-day plan — three meals a day, with variety.</p>
   </a>
 
 </div>
