@@ -1,6 +1,6 @@
 @extends('dashboard.layout')
 
-@section('title', 'Weekly Grocery — Rashoighor Ledger')
+@section('title', 'Weekly Grocery — Better-Everyday')
 @section('eyebrow', 'Feature 04')
 @section('heading', 'Weekly Grocery Budget')
 @section('sub', 'Give it a weekly budget in taka — get back a 7-day plan, three meals a day, split evenly with variety across days.')

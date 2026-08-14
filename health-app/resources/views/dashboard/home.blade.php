@@ -1,7 +1,7 @@
 @extends('dashboard.layout')
 
-@section('title', 'Rashoighor Ledger — Home')
-@section('eyebrow', 'Zobairul · Health App')
+@section('title', 'Better-Everyday — Home')
+@section('eyebrow', 'Better-Everyday · Health App')
 @section('heading', 'Pick a stall')
 @section('sub', 'Four features, four pages. Log in up top first — the token carries over to whichever page you open next.')
 

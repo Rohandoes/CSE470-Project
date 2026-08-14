@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Log in — Vitality</title>
+<title>Log in — Better-Everyday</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -99,7 +99,7 @@
 <body>
 
 <div class="panel">
-  <div class="brand"><span class="dot"></span>Vitality</div>
+  <div class="brand"><span class="dot"></span>Better-Everyday</div>
   <div class="tagline">Log in to plan meals, set budgets, and track your food.</div>
 
   <label for="email">Email</label>

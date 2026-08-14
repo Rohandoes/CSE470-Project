@@ -1,6 +1,6 @@
 @extends('dashboard.layout')
 
-@section('title', 'Food Logger — Vitality')
+@section('title', 'Food Logger — Better-Everyday')
 @section('eyebrow', 'Feature 05')
 @section('heading', 'AI food logger')
 @section('sub', 'Type what you ate in plain language — it matches foods from the database automatically.')

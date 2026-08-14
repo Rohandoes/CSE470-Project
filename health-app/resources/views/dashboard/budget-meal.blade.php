@@ -1,6 +1,6 @@
 @extends('dashboard.layout')
 
-@section('title', 'Budget Meal — Rashoighor Ledger')
+@section('title', 'Budget Meal — Better-Everyday')
 @section('eyebrow', 'Feature 03')
 @section('heading', 'Budget Meal Recommendation')
 @section('sub', 'Give it a budget in taka — get back the best protein-per-taka combo that fits.')

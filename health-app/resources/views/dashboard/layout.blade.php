@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>@yield('title', 'Vitality')</title>
+<title>@yield('title', 'Better-Everyday')</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -220,7 +220,7 @@
 <body>
 
 <div class="topbar">
-  <a href="{{ url('/dashboard') }}" class="brand"><span class="dot"></span>Vitality</a>
+  <a href="{{ url('/dashboard') }}" class="brand"><span class="dot"></span>Better-Everyday</a>
   <nav class="links">
     <a href="{{ url('/dashboard') }}" class="{{ request()->is('dashboard') ? 'active' : '' }}">Home</a>
     <a href="{{ url('/dashboard/foods') }}" class="{{ request()->is('dashboard/foods') ? 'active' : '' }}">Foods</a>
@@ -238,7 +238,7 @@
 
 <header class="page-head">
   <div class="eyebrow">@yield('eyebrow', 'Feature')</div>
-  <h1>@yield('heading', 'Vitality')</h1>
+  <h1>@yield('heading', 'Better-Everyday')</h1>
   <div class="sub">@yield('sub', '')</div>
 </header>
 
