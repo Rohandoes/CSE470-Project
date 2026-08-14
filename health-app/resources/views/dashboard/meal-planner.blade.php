@@ -1,6 +1,6 @@
 @extends('dashboard.layout')
 
-@section('title', 'Meal Planner — Rashoighor Ledger')
+@section('title', 'Meal Planner — Better-Everyday')
 @section('eyebrow', 'Feature 02')
 @section('heading', 'Meal Planner')
 @section('sub', 'Log a meal slot using foods from the database. Needs you logged in up top.')

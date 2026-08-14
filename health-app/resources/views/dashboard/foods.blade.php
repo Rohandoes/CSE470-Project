@@ -1,6 +1,6 @@
 @extends('dashboard.layout')
 
-@section('title', 'Foods — Rashoighor Ledger')
+@section('title', 'Health App — Better-Everyday')
 @section('eyebrow', 'Feature 01')
 @section('heading', 'Bangladeshi Food Database')
 @section('sub', 'Every item currently sitting in the foods table.')
