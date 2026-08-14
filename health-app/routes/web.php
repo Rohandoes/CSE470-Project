@@ -35,5 +35,8 @@ Route::get('/dashboard/weekly-grocery', function () {
 Route::get('/dashboard/login', function () {
     return view('dashboard.login');
 });
+Route::get('/dashboard/food-logger', function () {
+    return view('dashboard.food-logger');
+});
 
 require __DIR__.'/auth.php';

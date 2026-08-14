@@ -35,4 +35,10 @@ class User extends Authenticatable
 {
     return $this->hasMany(MealPlan::class);
 }
+
+    public function foodLogs()
+{
+    return $this->hasMany(FoodLog::class);
+}
+
 }
