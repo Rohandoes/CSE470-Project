@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
-// 1. Prepare writable directories in Vercel's ephemeral /tmp storage
+// 1. Prepare writable storage directories in Vercel's ephemeral /tmp folder
 $storagePath = '/tmp/storage';
 $directories = [
     $storagePath . '/framework/views',
@@ -33,9 +33,8 @@ require __DIR__.'/../vendor/autoload.php';
 /** @var Application $app */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
-// 5. Override storage and cache paths to write into /tmp
+// 5. Override storage path to write logs, cache, and compiled views to /tmp
 $app->useStoragePath($storagePath);
-$app->useBootstrapPath('/tmp/storage/bootstrap');
 
-// 6. Handle the request
+// 6. Handle the incoming request...
 $app->handleRequest(Request::capture());
